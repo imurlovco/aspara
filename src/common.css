@@ -1,8 +1,10 @@
 .main {
+    color: #fff;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
     align-items: center;
     text-align: center;
     font-size: 30px;
-    font-family: 'godoMaum'; 
+    font-family: 'godoMaum';
 }
 
 @font-face {
