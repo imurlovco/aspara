@@ -1,4 +1,12 @@
 .main {
+    align-items: center;
     text-align: center;
     font-size: 30px;
+    font-family: 'godoMaum'; 
+}
+
+@font-face {
+    font-family: 'godoMaum';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/godoMaum.woff') format('woff');
+    font-style: normal;
 }
