@@ -1,0 +1,63 @@
+.main {
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh; 
+}
+
+body, table, th, td {
+    font-family: 'godoMaum';
+    color: #fff;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+
+/*@font-face {
+    font-family: 'godoMaum';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/godoMaum.woff') format('woff');
+    font-style: normal;
+}*/
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    vertical-align: middle;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+/*
+@font-face {
+    font-family: 'godoMaum';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/godoMaum.woff') format('woff');
+    font-style: normal;
+}
+
+body, table, th, td {
+    font-family: 'godoMaum';
+    color: #fff;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+
+.main {
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    vertical-align: middle;
+    border: 1px solid white;
+    padding: 10px;
+}
+*/
