@@ -1,10 +1,10 @@
 .main {
-    color: #fff;
-    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
-    text-align: center;
-    font-size: 35px;
-    font-family: 'godoMaum';
-    display: flex;
+    color: #fff; /*텍스트 색상 설정*/
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black; /*텍스트 외곽선 설정*/
+    text-align: center; /*텍스트 정렬*/
+    font-size: 35px; /*텍스트 크기*/
+    font-family: 'godoMaum'; /*폰트 지정*/
+    display: flex; /*요소 정렬*/
     justify-content: center;
     align-items: center;
     min-height: 100dvh;
@@ -14,4 +14,4 @@
     font-family: 'godoMaum';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/godoMaum.woff') format('woff');
     font-style: normal;
-}
+} /*고도마음체 불러오기*/
