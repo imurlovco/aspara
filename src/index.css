@@ -30,7 +30,16 @@
 }
 
 .buttons {
-    margin: 20px;
-    padding: 20px;
     text-align: center;
+}
+
+button {
+    width: 200px;
+    height: 20vw;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    clip-path: path('M0.5,0.111 C0.75,0.111 0.889,0.25 0.889,0.5 C0.889,0.75 0.75,0.889 0.5,0.889 C0.25,0.889 0.111,0.75 0.111,0.5 C0.111,0.25 0.25,0.111 0.5,0.111 Z');
 }
