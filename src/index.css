@@ -17,58 +17,6 @@
     min-height: 30dvh;
 }
 
-/*기본 버튼 세팅*/
-.buttons {
-    margin: 10px;
-    text-align: center;
-}
-
-.btn-hover {
-    /*버튼 외형 설정*/
-    width: 200px;
-    font-size: 16px;
-    font-weight: 600; 
-    color: #fff;
-    cursor: pointer;
-    margin: 10px;
-    height: 55px;
-    text-align: center;
-    border: none;
-    background-size: 300% 100%;
-    border-radius: 50px;
-
-    /*버튼 애니메이션 설정*/
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-/*호버 시 애니메이션 설정*/
-.btn-hover:hover {
-    background-position: 100% 0;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-/*버튼 클릭시 설정*/
-.btn-hover:focus {
-    outline: none;
-}
-
-/*버튼 색상 설정*/
-.btn-hover.color-1 {
-    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
-    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
-}
-
-.btn-hover.color-2 {
-    background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);
-    box-shadow: 0 4px 15px 0 rgba(242, 97, 103, 0.75);
-} /*버튼 색상 설정*/
-
 /*고도마음체 불러오기*/
 @font-face {
     font-family: 'godoMaum';
