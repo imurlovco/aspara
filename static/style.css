@@ -19,6 +19,7 @@ body {
     font-family: 'Godo', sans-serif;
     background-image: url(bg.png);
     background-size: cover;
+    word-break: keep-all;
 }
 
 h1 {
