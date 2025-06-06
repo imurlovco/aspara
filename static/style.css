@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2') format('woff2'), url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff') format('woff');
+}
+
+body {
+    color: #fff;
+    text-shadow: -2px 0px black, 0px 2px black, 2px 0px black, 0px -2px black;
+    text-align: center;
+    font-family: 'Godo', sans-serif;
+    background-image: url(bg.png);
+    background-size: cover;
+    word-break: keep-all;
+}
+
+h1 {
+    margin: 20px;
+    padding: 20px;
+    min-height: 10dvh;
+}
+
+.title {
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    height: 70px;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+body, table, th, td {
+    color: #fff;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+
+table {
+    border-collapse: collapse;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+th, td {
+    vertical-align: middle;
+    border: 1px solid white;
+    padding: 10px;
+}
