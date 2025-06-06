@@ -28,3 +28,9 @@
 .title {
     margin: auto;
 }
+
+.buttons {
+    display: block;
+    margin: 20px;
+    text-align: center;
+}
