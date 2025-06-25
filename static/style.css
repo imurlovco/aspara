@@ -5,18 +5,11 @@
   src: url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
 }
 
-@font-face {
-  font-family: 'Godo';
-  font-style: normal;
-  font-weight: 700;
-  src: url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2') format('woff2'), url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff') format('woff');
-}
-
 body {
     color: #fff;
     text-shadow: -2px 0px black, 0px 2px black, 2px 0px black, 0px -2px black;
     text-align: center;
-    font-family: 'Godo', sans-serif;
+    font-family: 'Godo';
     background-image: url(bg.png);
     background-size: cover;
     word-break: keep-all;
