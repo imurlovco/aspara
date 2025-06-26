@@ -15,7 +15,7 @@ body {
     word-break: keep-all;
 }
 
-h1 {
+h1, h2 {
     margin: 20px;
     padding: 20px;
     min-height: 10dvh;
